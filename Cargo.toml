@@ -1,0 +1,22 @@
+[package]
+name = "advent-2024"
+version = "0.1.0"
+edition = "2021"
+authors = ["Lukas Lehr <lukaslehr@hotmail.com>"]
+description = "Advent of Code 2024 Solutions"
+
+[dependencies]
+anyhow = "1.0"
+thiserror = "1.0"
+itertools = "0.12"
+regex = "1.10"
+rayon = "1.8"
+num = "0.4"
+
+[dev-dependencies]
+criterion = "0.5"
+pretty_assertions = "1.4"
+
+[[bench]]
+name = "solutions_bench"
+harness = false
