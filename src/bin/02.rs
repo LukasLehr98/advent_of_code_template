@@ -2,7 +2,7 @@ use advent_2024::Result;
 use std::fs::read_to_string;
 
 fn main() -> Result<()> {
-    let input = read_to_string("input/day01.txt")?;
+    let input = read_to_string("input/day02.txt")?;
     
     let part1 = solve_part1(&input)?;
     let part2 = solve_part2(&input)?;
