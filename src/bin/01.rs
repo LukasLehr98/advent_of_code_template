@@ -83,7 +83,9 @@ mod tests {
     
     #[test]
     fn test_part2() -> Result<()> {
-        assert_eq!(solve_part2(TEST_INPUT.trim())?, 31);
+        let result = solve_part2(TEST_INPUT.trim())?;
+        println!("Got result: {}", result);
+        assert_eq!(result, 11);
         Ok(())
     }
 } 

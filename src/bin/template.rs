@@ -30,13 +30,17 @@ mod tests {
     
     #[test]
     fn test_part1() -> Result<()> {
-        assert_eq!(solve_part1(TEST_INPUT)?, 0);
+        let result = solve_part1(TEST_INPUT.trim())?;
+        println!("Got result: {}", result);
+        assert_eq!(result, 0);
         Ok(())
     }
     
     #[test]
     fn test_part2() -> Result<()> {
-        assert_eq!(solve_part2(TEST_INPUT)?, 0);
+        let result = solve_part2(TEST_INPUT.trim())?;
+        println!("Got result: {}", result);
+        assert_eq!(result, 0);
         Ok(())
     }
 } 
